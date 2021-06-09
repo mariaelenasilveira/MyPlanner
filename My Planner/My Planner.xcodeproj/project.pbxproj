@@ -15,6 +15,7 @@
 		2D1B77B426702DDB00418D42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D1B77B226702DDB00418D42 /* LaunchScreen.storyboard */; };
 		2D1B77BF26702DDB00418D42 /* My_PlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1B77BE26702DDB00418D42 /* My_PlannerTests.swift */; };
 		2D1B77CA26702DDB00418D42 /* My_PlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1B77C926702DDB00418D42 /* My_PlannerUITests.swift */; };
+		2D2E61452670476100B61044 /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2E61442670476100B61044 /* CodeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2D1B77C526702DDB00418D42 /* My PlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My PlannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D1B77C926702DDB00418D42 /* My_PlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_PlannerUITests.swift; sourceTree = "<group>"; };
 		2D1B77CB26702DDB00418D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D2E61442670476100B61044 /* CodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				2D1B77B226702DDB00418D42 /* LaunchScreen.storyboard */,
 				2D1B77B526702DDB00418D42 /* Info.plist */,
 				2D1B77AD26702DD800418D42 /* My_Planner.xcdatamodeld */,
+				2D2E61442670476100B61044 /* CodeView.swift */,
 			);
 			path = "My Planner";
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				2D1B77AF26702DD800418D42 /* My_Planner.xcdatamodeld in Sources */,
 				2D1B77A926702DD800418D42 /* ViewController.swift in Sources */,
 				2D1B77A526702DD700418D42 /* AppDelegate.swift in Sources */,
+				2D2E61452670476100B61044 /* CodeView.swift in Sources */,
 				2D1B77A726702DD700418D42 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
