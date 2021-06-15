@@ -19,9 +19,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window.windowScene = windowScene
         
         let navigationCntroller = UINavigationController()
-        let viewController = ViewController()
-
-        navigationCntroller.pushViewController(viewController, animated: true)
+        let coordinator = MainCoordinator(navigationController: navigationCntroller)
+        
+        coordinator.start()
         
         window.rootViewController = navigationCntroller
         window.makeKeyAndVisible()

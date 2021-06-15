@@ -16,6 +16,9 @@
 		2D1B77BF26702DDB00418D42 /* My_PlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1B77BE26702DDB00418D42 /* My_PlannerTests.swift */; };
 		2D1B77CA26702DDB00418D42 /* My_PlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1B77C926702DDB00418D42 /* My_PlannerUITests.swift */; };
 		2D2E61452670476100B61044 /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2E61442670476100B61044 /* CodeView.swift */; };
+		2D5E1EDA26781B7100088952 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5E1ED926781B7100088952 /* Coordinator.swift */; };
+		2D5E1EDC26781C7300088952 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5E1EDB26781C7300088952 /* MainCoordinator.swift */; };
+		2D5E1EDE26784BCB00088952 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5E1EDD26784BCB00088952 /* FirstViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		2D1B77C926702DDB00418D42 /* My_PlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_PlannerUITests.swift; sourceTree = "<group>"; };
 		2D1B77CB26702DDB00418D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D2E61442670476100B61044 /* CodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
+		2D5E1ED926781B7100088952 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		2D5E1EDB26781C7300088952 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		2D5E1EDD26784BCB00088952 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,9 @@
 				2D1B77B526702DDB00418D42 /* Info.plist */,
 				2D1B77AD26702DD800418D42 /* My_Planner.xcdatamodeld */,
 				2D2E61442670476100B61044 /* CodeView.swift */,
+				2D5E1EDB26781C7300088952 /* MainCoordinator.swift */,
+				2D5E1ED926781B7100088952 /* Coordinator.swift */,
+				2D5E1EDD26784BCB00088952 /* FirstViewController.swift */,
 			);
 			path = "My Planner";
 			sourceTree = "<group>";
@@ -261,8 +270,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D1B77AF26702DD800418D42 /* My_Planner.xcdatamodeld in Sources */,
+				2D5E1EDC26781C7300088952 /* MainCoordinator.swift in Sources */,
 				2D1B77A926702DD800418D42 /* ViewController.swift in Sources */,
+				2D5E1EDA26781B7100088952 /* Coordinator.swift in Sources */,
 				2D1B77A526702DD700418D42 /* AppDelegate.swift in Sources */,
+				2D5E1EDE26784BCB00088952 /* FirstViewController.swift in Sources */,
 				2D2E61452670476100B61044 /* CodeView.swift in Sources */,
 				2D1B77A726702DD700418D42 /* SceneDelegate.swift in Sources */,
 			);
